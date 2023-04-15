@@ -1,0 +1,9 @@
+<config
+        xmlns='http://www.ehcache.org/v3'
+>
+    <cache alias="employee">
+        <key-type>java.lang.Long</key-type>
+        <value-type>test.hibernate.entities.Employee</value-type>
+        <heap unit="entries">10000</heap>
+    </cache>
+</config>
